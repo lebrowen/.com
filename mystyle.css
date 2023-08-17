@@ -1,0 +1,109 @@
+body {
+  width: 80%;
+  height: 100vh;
+  margin: 7em;
+  font-family: Tahoma;
+  font-size: 16px;
+  font: bold;
+  background-image: url("https://w0.peakpx.com/wallpaper/262/356/HD-wallpaper-abstraction-red-black-dark.jpg");
+  
+  color : white;
+}
+h1 {
+  margin: 1em auto;
+  text-align: center;
+  font: bold;
+}
+p {
+	margin: 5em 6em;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+}
+img {
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin: 3em 20em;
+}
+ul {
+	margin: 1em auto;
+  text-align: center;
+  font: bolder;
+  size: 12px;
+  text-transform: uppercase;
+  color: white;
+}
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    border-right: 1px solid green;
+}
+.active {
+    background-color: blue;
+}
+li {
+    border-right: 1px solid #bbb;
+	 text-align: center;
+}
+table, td {
+         border: 3px solid red;
+		 padding: 3rem 5rem;
+		 border-bottom: 3px solid red;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: blue ;
+  border-color: white;
+  min-width: 300px;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
